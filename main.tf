@@ -20,6 +20,6 @@ resource "aws_vpc" "default" {
 }
 
 resource "aws_internet_gateway" "default" {
-  vpc_id = "${aws_vpc.default.id}"
+  vpc_id = "vpc-55481c3d"
   tags   = "${module.label.tags}"
 }
